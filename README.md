@@ -13,3 +13,14 @@ SongRoute is a music recommendation system that allows users to discover new mus
 - Music API (e.g. Spotify API, MusicBrainz API)
 - Python web framework (e.g. Flask, Django)
 - Cloud provider (e.g. Amazon Web Services, Google Cloud Platform)
+
+## Possible working plan
+- Research and choose a music API to collect data.
+- Set up a cloud-based SQL database to store the collected data.
+- Develop data processing jobs using Apache Spark to clean and transform the data from the API.
+- Set up Apache Airflow to manage the data processing workflows.
+- Develop a web interface using a Python web framework to allow users to search for music recommendations.
+- Integrate the web interface with the cloud-based database to retrieve recommendations.
+- Test the system thoroughly and make any necessary fixes and improvements.
+- Deploy the system to a cloud provider for public access.
+- Continuously monitor the system and make updates as needed.
